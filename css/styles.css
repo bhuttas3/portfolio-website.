@@ -91,19 +91,20 @@ a:focus {
     background-color: #d7d7f8;
     text-align: center;
     padding: 10px;
+    width: 100%;
     border-bottom: 3px solid #4a4a4a;
-    position: fixed
-  }
-  .css-box-shadow{ 
-	/*start ------------*/
-	width: [object Object]px; 
-	height: [object Object]px; 
-	background: #F8F8F8; 
-	border: solid #BDBDBD 1px; 
-	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
 	-webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
 	-moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
-}
+    position: fixed
+  }
+  #hero {
+    background-color: #d7d7f8;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+    margin-top: 100px;
+  }
   .container {
     padding: 0 15px;
   }
@@ -138,12 +139,7 @@ a:focus {
   #hero {
     background-color: #d7d7f8;
   }
-  #hero {
-    background-color: #d7d7f8;
-    padding: 20px 0;
-    display: inline-block;
-    width: 100%;
-  }
+
   main {
     padding-top: 133px;
   }
