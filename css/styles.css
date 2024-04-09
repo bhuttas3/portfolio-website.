@@ -92,7 +92,7 @@ a:focus {
     text-align: center;
     padding: 10px;
     width: 100%;
-    border-bottom: 3px solid #4a4a4a;
+    border-bottom: 1px solid #575698;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
 	-webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
 	-moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
@@ -103,13 +103,27 @@ a:focus {
     padding: 20px 0;
     display: inline-block;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 70px;
+    text-align: center;
+  }
+  #hero span {
+    color: #4a4a4a;
+    font-weight: 400;
+    font-size: 16px;
+    display: block;
+    line-height: 1.2;
+    margin-top: -15px;
   }
   .container {
     padding: 0 15px;
   }
   .row {
     margin: 25px 0;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
   }
   #hero h1 {
     text-align: center; /* Centers text */
@@ -141,8 +155,119 @@ a:focus {
   }
 
   main {
-    padding-top: 133px;
+    padding-top: 99px;
+  }
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .social {
+    width: 48px;
+    height: auto;
+  }
+  ul > li {
+    list-style-type: none;
+  }
+  @keyframes color-change {
+    from {fill: #edc655;}
+    to {fill: #f76414;}
+  }
+  .sun {
+    animation-duration: 4s;
+    animation-name: color-change;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
+  @keyframes cloud-move {
+    from {transform: translate(0,50px);}
+    to {transform: translate(200px,50px);}
+  }
+  .cloud-front {
+    animation: 30s cloud-move infinite alternate linear;
+  }
+  @keyframes cloud-move-reverse {
+    from {transform: translate(446px,48px);}
+    to {transform: translate(100px, 48px);}
+  }
+  .cloud-back {
+    animation: 34s cloud-move-reverse infinite alternate linear;
   }
   
+  /* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 99px 0 13px;
+    font-size: 18;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  #hero span {
+    display: block;
+  }
+
+  .col-md-4 {
+    width: 40%;
+  }
+
+  .col-md-6 {
+    width: 60%;
+  }
+
+  .col-md-5 {
+    width: 50%;
+  }
+
+
+  [class*="col-"] {
+    float: left;
+    padding: 30px;
+  }
+  nav > ul > li {
+    display: inline-block;
+  }
+
+  nav > ul {
+    margin: 1em 0;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
   
+
+  #skills-tools h3 { margin-top: 0;}
+
+  #my-story h2 { margin-top: 0;}
+}
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
+}
+/* ==============================
+Extra-large devices (1920px or larger)
+================================= */
+@media only screen and (min-width: 1920px) {
+}
   
