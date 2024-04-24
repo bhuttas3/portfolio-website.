@@ -141,9 +141,6 @@ a:focus {
     list-style-type: none;
     padding: 0;
   }
-  nav > ul > li {
-    display: inline-block;
-  }
   nav > ul > li > a {
     padding: 0 13px;
     text-transform: uppercase;
@@ -194,7 +191,19 @@ a:focus {
   .cloud-back {
     animation: 34s cloud-move-reverse infinite alternate linear;
   }
-  
+
+  .navtoggle li:not(:last-child) {
+    display: none;
+  }
+  .navtoggle, .navtoggle.responsive {
+    position: relative;
+  }
+  .navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+  }
   /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -249,7 +258,12 @@ Medium devices (640px and larger)
   .navtoggle li:last-child {
     display: none;
   }
-  
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+.navtoggle li:last-child {
+  display: none;
+}
 
   #skills-tools h3 { margin-top: 0;}
 
