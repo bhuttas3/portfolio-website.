@@ -193,7 +193,7 @@ a:focus {
   }
 
   .navtoggle li:not(:last-child) {
-    display: none;
+    display: inline-block;
   }
   .navtoggle, .navtoggle.responsive {
     position: relative;
