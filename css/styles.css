@@ -203,7 +203,7 @@ ul > li {
 .navtoggle li .icon {
   position: absolute;
   right: 0;
-  top: 2px;
+  top: 10px;
   font-size: 20px;
   padding-right: 0;
 }
