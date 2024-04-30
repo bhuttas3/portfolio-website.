@@ -16,7 +16,7 @@ body {
   font-size: 16px; 
   font-weight: 300; 
   line-height: 1.6; 
-  color: #4a4a4a;
+  color: #1a191d;
 }
 
 h1, h2, h3, h4 {
@@ -52,7 +52,7 @@ a:hover {
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 a:visited { /* visited link */
-  color: #523e12;
+  color: #efebe1;
 }
 a:active { /* selected link */
   color: #994c30;
@@ -88,7 +88,7 @@ text-decoration: underline;
 /* Layout styling */
 }
 header {
-  background-color: #d7d7f8;
+  background-color: #7EA0F8;
   padding: 10px 0 4px;
   width: 100%;
   border-bottom: 1px solid #575698;
@@ -98,7 +98,7 @@ header {
   position: fixed
 }
 #hero {
-  background-color: #d7d7f8;
+  background-color: #7EA0F8;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -106,7 +106,7 @@ header {
   text-align: center;
 }
 #hero span {
-  color: #4a4a4a;
+  color: #0c0a0a;
   font-weight: 400;
   font-size: 16px;
   display: block;
@@ -144,10 +144,10 @@ nav > ul > li > a {
   padding: 0 13px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #4a4a4a;
+  color: #151414;
 }
 #hero {
-  background-color: #d7d7f8;
+  background-color: #7EA0F8;
 }
 
 main {
