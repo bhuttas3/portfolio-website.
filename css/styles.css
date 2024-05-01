@@ -8,11 +8,11 @@ Secondary Color (Green): #108051;
 }
 body{
   background-color: lightgray;
-  font-family: 'Charis SIL', sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 body {
   background-color: #ffffff;
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   font-size: 16px; 
   font-weight: 300; 
   line-height: 1.6; 
@@ -64,7 +64,7 @@ text-decoration: underline;
 }
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #c6a10b;
+  background-color: #120c6c;
   color: #ffffff; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
@@ -230,7 +230,7 @@ Medium devices (640px and larger)
 header {
   text-align: unset;
   padding: 24px 0 24px;
-  font-size: 18;
+  font-size: 18px;
 }
 
 nav {
