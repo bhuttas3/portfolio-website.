@@ -44,7 +44,7 @@ img {
   width: 100%;
 }
 a {
-  color: #0D1A90;
+  color: #015e10;
   text-decoration: none; /* No underlining */
 }
 a:hover {
@@ -59,7 +59,7 @@ a:active { /* selected link */
 }
 a:hover,
 a:focus {
-color: #000000;
+color: #4d15b5;
 text-decoration: underline;
 }
 .button {
