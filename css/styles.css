@@ -64,7 +64,7 @@ text-decoration: underline;
 }
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #6da50d;
+  background-color: #F8DD7E;
   color: #ffffff; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
@@ -91,10 +91,10 @@ text-decoration: underline;
 /* Layout styling */
 }
 header {
-  background-color: #ebedc0;
+  background-color: #f4f4ec;
   padding: 10px 0 4px;
   width: 100%;
-  border-bottom: 1px solid #575698;
+  border-bottom: 1px solid #F8DD7E;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
 -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
 -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
@@ -152,7 +152,7 @@ nav > ul > li > a {
   color: #151414;
 }
 #hero {
-  background-color: #ebedc0;
+  background-color: #f4f4ec;
 }
 
 main {
